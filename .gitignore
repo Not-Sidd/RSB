@@ -1,0 +1,48 @@
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python / FastAPI backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.sqlite3
+backend/alembic/versions/__pycache__/
+
+# --- Node / React web ---
+web/node_modules/
+web/dist/
+web/build/
+web/.vite/
+web/*.log
+
+# --- React Native / mobile ---
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/npm-debug.*
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/android/build/
+mobile/android/app/build/
+mobile/*.log
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.log
+.coverage
+htmlcov/
